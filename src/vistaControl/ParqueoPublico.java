@@ -10,6 +10,7 @@ public class ParqueoPublico extends Application {
 
       @Override
       public void start(Stage stage) throws Exception{
+    	 stage.setTitle("Parqueo Público");
          Parent root =
             FXMLLoader.load(getClass().getResource("ParqueoPublico.fxml"));
 
